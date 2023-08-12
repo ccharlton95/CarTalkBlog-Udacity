@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: rgb(161, 25, 25);
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: rgb(146, 108, 4);
+    padding: 25px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+      display: grid;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #d19b37;
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(161, 25, 25);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  p4 {
+      text-decoration: underline;
+      color: blueviolet;
+
+  }
+  h1 {
+      color: rgb(27, 99, 63);
+  }
+  p2 {
+      color: rgb(12, 124, 168);
+      text-decoration: underline;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+   }
